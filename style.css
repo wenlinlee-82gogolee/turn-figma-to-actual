@@ -11,7 +11,6 @@
 }
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
   position: relative;
 }
 body {
@@ -19,7 +18,7 @@ body {
   font-weight: 500;
 
   background-image: url('./images/BGstuff.svg');
-  background-position: left -92px top 96px;
+  background-position: left -118px top 105px;
   background-position: cover;
   background-repeat: no-repeat;
 }
@@ -122,9 +121,7 @@ body {
   width: 1088px;
   height: 383px;
   position: absolute;
-  width: 1088px;
-  height: 383px;
-  left: calc(50% - 1088px / 2);
+  left: 176px;
   top: 205px;
 }
 .hero__image {
@@ -132,25 +129,13 @@ body {
   height: 383px;
   position: absolute;
   left: 408px;
+  opacity: 0.6;
   z-index: -1;
-  right: 0px;
-  top: 0px;
-}
-.hero__content {
-  width: 489px;
-  height: 317px;
-
-  position: absolute;
-  left: 0px;
-  top: 22px;
 }
 .hero__heading {
   position: absolute;
   width: 489px;
   height: 142px;
-  left: 0px;
-  top: 0px;
-
   font-family: Playfair Display;
   font-weight: 900;
   font-size: 59px;
@@ -250,15 +235,15 @@ body {
   border: none;
 
   position: absolute;
-  left: calc(50% - 320px / 2 - 389px);
   top: 0px;
+  left: 0;
 }
 .section3__card2 {
   width: 320px;
   height: 445px;
   border: none;
   position: absolute;
-  left: calc(50% - 320px / 2 - 22px);
+  left: 367px;
   top: 88px;
 }
 .card-text {
@@ -278,7 +263,7 @@ body {
   position: absolute;
   width: 365px;
   height: 324px;
-  left: calc(50% - 365px / 2 + 366.5px);
+  left: 733px;
   top: 138px;
   border: none;
 }
@@ -320,23 +305,23 @@ body {
 .section4__case1 {
   width: 342px;
   height: 239px;
-  left: calc(50% - 342px / 2 - 373.5px);
+  left: 0;
 }
 .section4__case2 {
   width: 342px;
   height: 239px;
-  left: calc(50% - 342px / 2 + 0.5px);
+  left: 374px;
 }
 .section4__case3 {
   width: 341px;
   height: 239px;
-  left: calc(50% - 341px / 2 + 374px);
+  left: 748px;
 }
 .section4__heading {
   position: absolute;
   width: 904px;
   height: 126px;
-  left: calc(50% - 904px / 2 + 1.5px);
+  left: 94px;
   top: 279px;
 
   font-family: Playfair Display;
@@ -349,7 +334,7 @@ body {
   position: absolute;
   width: 668px;
   height: 110px;
-  left: calc(50% - 668px / 2 + 1.5px);
+  left: 212px;
   top: 420px;
 }
 .input__email {
@@ -557,11 +542,6 @@ body {
   right: 176px;
   top: 335px;
 }
-.footer__legal-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .footer__legal-box small {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -570,7 +550,7 @@ body {
 }
 .legal__rights {
   position: absolute;
-  width: 555px;
+  width: 557px;
   height: 18px;
   left: 257px;
   top: 376px;
@@ -587,14 +567,28 @@ body {
   justify-content: space-between;
 }
 .legal__terms {
+  position: absolute;
   width: 139px;
   height: 18px;
-  top: 0px;
   right: 134px;
+  top: 0px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
 }
 .legal__privacy {
+  position: absolute;
   width: 99px;
   height: 18px;
-  top: 0px;
   right: 0px;
+  top: 0px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
 }

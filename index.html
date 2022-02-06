@@ -14,6 +14,7 @@
     <title>NinjaMail</title>
   </head>
   <body>
+    <div class="nav">
       <div class="container">
         <div class="navbar__logo">
           <img src="/images/NinjaMailLogo.svg" alt="logo" />
@@ -44,34 +45,37 @@
           </button>
         </div>
       </div>
-    </nav>
+    </div>
 
-      <header>
-        <div class="container hero">
-          <div class="hero__content">
-            <h1 class="hero__heading">Create Stunning<br />Email Campaigns</h1>
-            <p class="hero__para">
-              Create and launch email campaigns that captivate your customers in
-              just a few clicks.
-            </p>
-            <button type="button" class="btn-general hero__btn">TRY NOW</button>
-            <button type="button" class="btn-general hero__btn hero__btn--white">
-              GET A DEMO
-            </button>
-          </div>
+    <div class="container">
+      <header class="hero">
+        <div class="hero__left">
+          <h1 class="hero__heading">Create Stunning<br />Email Campaigns</h1>
+          <p class="hero__para">
+            Create and launch email campaigns that captivate your customers in
+            just a few clicks.
+          </p>
+          <button type="button " class="btn-general hero__btn">TRY NOW</button>
+          <button type="button " class="btn-general hero__btn hero__btn--white">
+            GET A DEMO
+          </button>
+        </div>
+
+        <div class="hero__right">
           <img
             src="/images/photo-hero.svg"
             alt="banner image"
-            class="hero__image"
+            class="img-fluid hero__image"
           />
         </div>
       </header>
+    </div>
 
     <main>
-      <div class="container video">
-          <h2 class="video__heading">Reach More Customers</h2>
-          <img src="/images/video.svg" alt="video" class="video__img" />
-          <button type="button" class="btn-general video__btn">LEARN HOW</button>
+      <div class="container-fluid video">
+        <h2 class="video__heading">Reach More Customers</h2>
+        <img src="/images/video.svg" alt="video" class="img-fluid video__img" />
+        <button type="button" class="btn-general video__btn">LEARN HOW</button>
       </div>
 
       <div class="container section3">
@@ -124,9 +128,21 @@
       </div>
 
       <div class="container section4">
-          <img src="/images/CaseStudy1.svg" alt="case study 1" class="section4__case1" />
-          <img src="/images/CaseStudy2.svg" alt="case study 2" class="section4__case2" />
-          <img src="/images/CaseStudy3.svg" alt="case study 3" class="section4__case3" />
+        <img
+          src="/images/CaseStudy1.svg"
+          alt="case study 1"
+          class="section4__case1"
+        />
+        <img
+          src="/images/CaseStudy2.svg"
+          alt="case study 2"
+          class="section4__case2"
+        />
+        <img
+          src="/images/CaseStudy3.svg"
+          alt="case study 3"
+          class="section4__case3"
+        />
         <h2 class="section4__heading">
           Learn how others are reaching their <br />audience easier than ever
           before.
@@ -160,67 +176,67 @@
       </div>
     </main>
 
-      <div class="container get-started">
-        <div class="get-started__center">
-          <h2 class="get-started__heading">Get Started today!</h2>
-          <button type="button" class="btn-general get-started__btn">
-            PICK A PLAN
-          </button>
-        </div>
+    <div class="container-fluid get-started">
+      <div class="get-started__center">
+        <h2 class="get-started__heading">Get Started today!</h2>
+        <button type="button" class="btn-general get-started__btn">
+          PICK A PLAN
+        </button>
       </div>
+    </div>
 
-      <div class="container footer">
-        <div class="footer__center">
-          <img
-            src="/images/footer-logo.svg"
-            alt="footer logo"
-            class="footer__logo"
-          />
-          <div class="footer__lists">
-            <div class="footer__lists1">
-              <a href="#" class="list">Features</a>
-              <a href="#" class="list">Pricing</a>
-              <a href="#" class="list">Services</a>
-              <a href="#" class="list">Partners</a>
-            </div>
-            <div class="footer__lists2">
-              <a href="#" class="list">About Us</a>
-              <a href="#" class="list">Tutorials</a>
-              <a href="#" class="list">Resources</a>
-              <a href="#" class="list">Help Center</a>
-              <a href="#" class="list">Templates</a>
-              <a href="#" class="list">Case Studies</a>
-            </div>
-            <div class="footer__lists3">
-              <a href="#" class="list">Medium</a>
-              <a href="#" class="list">Twitter</a>
-              <a href="#" class="list">Facebook</a>
-              <a href="#" class="list">Instagram</a>
-              <a href="#" class="list">LinkedIn</a>
-            </div>
-            <div class="footer__lists4">
-              <a href="#" class="list">Contact Us</a>
-              <a href="#" class="list">Slack</a>
-              <a href="#" class="list">Jobs</a>
-            </div>
+    <div class="container footer">
+      <div class="footer__center">
+        <img
+          src="/images/footer-logo.svg"
+          alt="footer logo"
+          class="footer__logo"
+        />
+        <div class="footer__lists">
+          <div class="footer__lists1">
+            <a href="#" class="list">Features</a>
+            <a href="#" class="list">Pricing</a>
+            <a href="#" class="list">Services</a>
+            <a href="#" class="list">Partners</a>
           </div>
-
-          <div class="container footer__legal">
-            <div class="footer__line"></div>
-            <div class="footer__legal-box">
-              <p class="legal__rights">
-                <small>
-                  NinjaMail is a sample project for Quest AI. © 2019 Quest AI,
-                  All rights reserved.
-                </small>
-              </p>
-              <span class="legal__terms-and-privacy">
-                <small class="legal__terms"> Terms & Conditions </small>
-                <small class="legal__privacy"> Privacy Policy </small>
-              </span>
-            </div>
+          <div class="footer__lists2">
+            <a href="#" class="list">About Us</a>
+            <a href="#" class="list">Tutorials</a>
+            <a href="#" class="list">Resources</a>
+            <a href="#" class="list">Help Center</a>
+            <a href="#" class="list">Templates</a>
+            <a href="#" class="list">Case Studies</a>
+          </div>
+          <div class="footer__lists3">
+            <a href="#" class="list">Medium</a>
+            <a href="#" class="list">Twitter</a>
+            <a href="#" class="list">Facebook</a>
+            <a href="#" class="list">Instagram</a>
+            <a href="#" class="list">LinkedIn</a>
+          </div>
+          <div class="footer__lists4">
+            <a href="#" class="list">Contact Us</a>
+            <a href="#" class="list">Slack</a>
+            <a href="#" class="list">Jobs</a>
           </div>
         </div>
+
+        <div class="container footer__legal">
+          <div class="footer__line"></div>
+          <div class="footer__legal-box">
+            <p class="legal__rights">
+              <small>
+                NinjaMail is a sample project for Quest AI. © 2019 Quest AI, All
+                rights reserved.
+              </small>
+            </p>
+            <span class="legal__terms-and-privacy">
+              <small class="legal__terms"> Terms & Conditions </small>
+              <small class="legal__privacy"> Privacy Policy </small>
+            </span>
+          </div>
+        </div>
       </div>
+    </div>
   </body>
 </html>
