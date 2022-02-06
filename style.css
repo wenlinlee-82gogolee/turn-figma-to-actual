@@ -18,7 +18,7 @@ body {
   font-weight: 500;
 
   background-image: url('./images/BGstuff.svg');
-  background-position: left -118px top 105px;
+  background-position: left -118px top 110px;
   background-position: cover;
   background-repeat: no-repeat;
 }
@@ -386,14 +386,10 @@ body {
   top: 2767px;
   left: 248px;
 }
-.secton5__heading__wrap {
-  position: absolute;
+.section5__heading {
   width: 944px;
   height: 124px;
   top: 0px;
-  left: 50%;
-}
-.section5__heading {
   font-family: 'Playfair Display', serif;
   font-weight: 900;
   font-size: 44px;
@@ -420,14 +416,14 @@ body {
   width: 85px;
   height: 44px;
   position: absolute;
-  left: calc(50% - 85px / 2 - 195.5px);
+  left: 225px;
   top: 4px;
   bottom: 0px;
 }
 .brand-logo3 {
   width: 145px;
   position: absolute;
-  left: calc(50% - 145px / 2 - 16.5px);
+  left: 374px;
   top: 0px;
   bottom: 0px;
 }
